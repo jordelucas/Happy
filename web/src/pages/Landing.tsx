@@ -2,7 +2,7 @@ import React from 'react';
 import { FiArrowRight } from 'react-icons/fi'
 
 import '../styles/pages/landing.css'
-import logoImg from '../images/logo.svg'
+import logoImg from '../images/Logo.svg'
 import { Link } from 'react-router-dom';
 
 function Landing() {
@@ -21,7 +21,6 @@ function Landing() {
           <span>Rio Grande do Norte</span>
         </div>
 
-        
         <Link to="/app" className="enter-app">
           <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6" />
         </Link>
